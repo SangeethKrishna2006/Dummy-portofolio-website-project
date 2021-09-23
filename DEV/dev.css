@@ -1,0 +1,44 @@
+body {
+  background-color: #040f16;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: "bebas neue", sans-serif;
+  letter-spacing: 0.3rem;
+  text-shadow: 3px 3px 3px #aaa;
+  /* border-right: 3px solid grey; */
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+#aboutMe {
+  border-right: 3px solid grey;
+}
+
+h2 {
+  margin: 2rem 5rem;
+  border-bottom: 2px solid white;
+}
+
+button {
+  width: 10rem;
+  margin: 1rem 0 0 9rem;
+}
+
+img {
+  width: 41rem;
+  height: 30rem;
+}
+
+@media (max-width: 1000px) {
+  button {
+    margin: 1rem 0;
+  }
+  img {
+    display: none;
+  }
+}

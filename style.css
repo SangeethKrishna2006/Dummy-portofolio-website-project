@@ -1,0 +1,101 @@
+body {
+  background-color: #6d6466;
+  margin: 0;
+}
+
+#navBrand {
+  font-size: 2em;
+  color: #ff5666;
+  font-family: "Oswald", sans-serif;
+  margin: 0 0 0.5rem 0.5rem;
+  padding-right: 1em;
+  border-right: 2px solid grey;
+  letter-spacing: 0.1rem;
+}
+
+#navLinks a {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-left: 3rem;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+
+#navLinks a:hover {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-left: 3rem;
+  color: #ff5666;
+  font-family: "Barlow", sans-serif;
+}
+
+.mainHeading h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-right: 20rem;
+  color: white;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 7rem;
+  margin-bottom: 0;
+}
+
+.subHeading {
+  display: flex;
+  margin-left: 12rem;
+  margin-right: 40rem;
+  margin-top: 0;
+  font-family: "barlow", sans-serif;
+  font-weight: 600;
+  color: white;
+  border-bottom: 5px solid aliceblue;
+  padding-bottom: 1rem;
+}
+
+#lorem p {
+  color: blue;
+}
+
+.about-abhi {
+  display: flex;
+  justify-content: center;
+}
+
+.about-abhi p {
+  width: 60rem;
+  text-align: center;
+  color: white;
+  font-size: 1.65rem;
+  font-family: barlow, sans-serif;
+  font-weight: 600;
+}
+
+#abhi-img1 {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+}
+
+#abhi-img1 img {
+  width: 60rem;
+  height: 50rem;
+}
+
+@media (max-width: 690px) {
+  .mainHeading h1 {
+    display: flex;
+    margin: 3rem 0 0 0;
+    justify-content: center;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .subHeading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 3rem;
+    border-radius: 5rem;
+  }
+}
